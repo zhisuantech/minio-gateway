@@ -95,6 +95,7 @@ metadata:
   name: minio-gateway
   namespace: minio
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: minio-gateway
